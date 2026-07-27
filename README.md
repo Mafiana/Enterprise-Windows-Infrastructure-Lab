@@ -29,7 +29,7 @@ Configured a Windows 11 client to use the Domain Controller as its DNS server �
 
 ### Phase 4: Password Resets & Account Lockouts
 Practiced the most common help-desk request — password resets — through Active Directory Users and Computers. Deliberately triggered an account lockout by repeated bad password attempts to validate the domain's lockout policy, then resolved it via the Unlock Account option. Used Event Viewer's Security log (Event ID 4740) on the Domain Controller to identify the originating computer of the lockout — a real-world technique for diagnosing lockouts caused by cached credentials rather than user error.
-![image Alt] (https://github.com/Mafiana/Enterprise-Windows-Infrastructure-Lab/blob/main/screenshots/Reset%20Account.PNG?raw=true)
+![image Alt](https://github.com/Mafiana/Enterprise-Windows-Infrastructure-Lab/blob/main/screenshots/Reset%20Account.PNG?raw=true)
 
 
 ### Phase 5: Delegated Administration
