@@ -1,6 +1,3 @@
-# Enterprise-Windows-Infrastructure-Lab
-This project demonstrates the complete lifecycle of user account management in a Windows Active Directory environment. It includes creating users, assigning groups and permissions, applying Group Policies, managing access to resources, and securely disabling or deleting accounts when employees leave.
-
 
 # Enterprise Active Directory Administration Lab
 
