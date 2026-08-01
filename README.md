@@ -34,9 +34,9 @@ Practiced the most common help-desk request — password resets — through Acti
 
 ### Phase 5: Delegated Administration
 Created a limited-privilege "help-desk" account and used the Delegation of Control wizard to grant it password-reset rights scoped to a single OU only — rather than granting full Domain Admin rights, following the principle of least privilege. Verified the account could reset passwords for users inside its assigned OU, but was correctly denied when attempting the same action against users in a different OU, confirming the delegation boundary held.
-![image Alt]()
-![image Alt]()
-![image Alt]()
+![image Alt](https://github.com/Mafiana/Enterprise-Windows-Infrastructure-Lab/blob/main/screenshots/deleg1.PNG?raw=true)
+![image Alt](https://github.com/Mafiana/Enterprise-Windows-Infrastructure-Lab/blob/main/screenshots/deleg2.PNG?raw=true)
+
 
 ### Phase 6: User Lifecycle Management
 Documented and executed the full lifecycle of an employee account: onboarding with correct group assignment, a mid-lifecycle department transfer (OU move plus group membership update), temporary disablement for leave (without deleting the account), and a full offboarding sequence — disable, random password reset, removal from all groups, and relocation to a dedicated "Disabled Users" OU ahead of a scheduled deletion after a retention window.
